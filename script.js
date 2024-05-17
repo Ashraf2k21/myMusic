@@ -2,7 +2,7 @@
 
 // initialized to variables 
 // let songIndex=0;
-let audioElement=new Audio("Songs/Zara-Zara-Bahekta-Hai(PagalWorld).mp3")
+let audioElement=new Audio("Zara-Zara-Bahekta-Hai(PagalWorld).mp3")
 let masterPlay=document.getElementById("masterPlay")
 let progressBar=document.getElementById("progressBar")
 let gif = document.getElementById("gif")
@@ -12,11 +12,11 @@ let duration=document.getElementById("duration")
 let next=document.getElementById("next")
 let previous=document.getElementById("previous")
 let songs=[
-    {songName:"Zara-Zara-Bahekta-Hai", filePath:"Songs/Zara-Zara-Bahekta-Hai(PagalWorld).mp3", coverPath:"Cover/zara.jpg"},
-    {songName:"Heeriye-Heeriye-Aa", filePath:"Songs/Heeriye-Heeriye-Aa(PaglaSongs).mp3", coverPath:"Cover/Heeriye.jpg"},
-    {songName:"Tere-Vaaste", filePath:"Songs/Tere-Vaaste(PaglaSongs).mp3", coverPath:"Cover/tere vaste.jpg"},
-    {songName:"Tum Hi Ho", filePath:"Songs/Tum Hi Ho.mp3", coverPath:"Cover/Tum hi ho.jpg"},
-    {songName:"Duniya - Luka Chuppi", filePath:"Songs/Duniya - Luka Chuppi 128 Kbps.mp3", coverPath:"Cover/duniya.jog.jpg"}
+    {songName:"Zara-Zara-Bahekta-Hai", filePath:"Zara-Zara-Bahekta-Hai(PagalWorld).mp3", coverPath:"zara.jpg"},
+    {songName:"Heeriye-Heeriye-Aa", filePath:"Heeriye-Heeriye-Aa(PaglaSongs).mp3", coverPath:"eeriye.jpg"},
+    {songName:"Tere-Vaaste", filePath:"Tere-Vaaste(PaglaSongs).mp3", coverPath:"tere vaste.jpg"},
+    {songName:"Tum Hi Ho", filePath:"Tum Hi Ho.mp3", coverPath:"Cover/Tum hi ho.jpg"},
+    {songName:"Duniya - Luka Chuppi", filePath:"Duniya - Luka Chuppi 128 Kbps.mp3", coverPath:"duniya.jog.jpg"}
 ]
 
 duration=audioElement.duration
