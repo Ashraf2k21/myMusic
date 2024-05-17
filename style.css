@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+body{
+    background-color: wheat;
+}
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+nav{
+   
+    font-family: 'Ubuntu', sans-serif;
+}
+.barnd-logo img{
+    width: 35px;
+    
+    padding-right: 6px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    font-family: varela+round;
+    list-style: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.barnd-logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+nav ul li{
+    padding: 12px;
+}
+.container{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 10px;
+    background-image: url("https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background-size: cover;
+   padding: 30px;
+   font-family: 'Varela Round', sans-serif;
+}
+.songItem img{
+    width: 73px;
+    border-radius: 34px;
+    padding-bottom: 0.5px;
+    height: 40px;
+   
+}
+.songItem{
+    width: 40%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.songItem i{
+    cursor: pointer;
+}
+.bottom{
+   
+    background-color: black;
+    height: 80px;
+ 
+    text-align: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+   
+}
+
+#progressBar{
+    width: 100vw;
+    height: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 0 10px;
+}
+.songPlayGif{
+    
+    position: absolute;
+    left:0;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.songPlayGif img{
+    width: 5vw;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
